@@ -1,0 +1,90 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: url(eiffel.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1
+{
+   margin-left: 35px;  
+}
+
+hr
+{
+    margin-left: 35px;
+    width: 81px;
+    border: 3px solid rgb(85, 167, 48);
+    margin-bottom: 45px;
+}
+
+#div-login
+{
+   border-radius: 20px;
+   border: 0px;
+   width: 360px;
+   height: 500px;
+   background-color: #16161600;
+   margin-top: 10%;
+}
+
+.input
+{
+  transform: translate(-7%,-7%);
+  font-family: arial;
+  outline: 0;
+  background: #16161600;
+  width: 85%;
+  border: solid rgb(85, 167, 48);
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  margin: 0 0 15px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  caret-color: rgb(255, 255, 255);
+  color: white;
+  padding-left: 8%;
+}
+
+::-webkit-input-placeholder  {color:rgba(255, 255, 255, 0.699); font-size: 12pt;}
+
+
+#form button
+{
+  width: 85%;
+  padding: 11px;
+  background-color: rgba(86, 167, 48, 0);
+  border: 2px solid rgb(85, 167, 48);
+  /*border-radius: 20px;*/
+  margin-left: 7%;
+  font: normal 12pt arial;
+  color: azure;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+#form label
+{
+  margin-left: 10%;
+  color: rgb(255, 255, 255); 
+  font-family: Arial;
+}
+
+#form button:hover
+{
+  background-color: rgba(86, 167, 48, 0.315);
+}
+
+#form p
+{
+  color: rgb(0, 174, 255);
+  font-family: Arial;
+  font-size: 11pt;
+}
